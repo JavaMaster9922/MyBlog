@@ -1,24 +1,18 @@
-Функционал блога
-****
+Blog functionality
 
-- Регистрация
-- Аутентификация и авторизация
-- Возможность добавление комментариев для зарегистрированных юзеров
- <br> 
- 
-### Технологии в данном проекте 
-- Django
-- postgresql
-- Docker
+Registration
+Authentication and authorization
+Ability to add comments for registered users
 
-### Установка
-****
-Чтобы правильно установить и открыть веб-приложение, следуй инструкции:
-- Выгрузи папку final_project к себе на устройство
-- Далее вызови командную строку в папке с проектом
-- Вызови данные команды (до этого момента установи Docker, если еще не установлен):
+Technologies in this project
+Django
+postgresql
+Docker
+Installation
+To properly install and open the web application, follow the instructions:
 
-```sh
+Download the final_project folder to your device
+Next, call the command line in the project folder
+Invoke these commands (install Docker before this point, if not already installed):
 docker build -t <name> .
 docker run -p 8000:8000 <name>
-```
